@@ -7,7 +7,12 @@
 
 ![](utils/docs/images/solution_architecture_v2.png)
 
-You can read the full article on my [Medium Blog](https://aosolorzano.medium.com/spring-boot-native-microservice-on-ecs-fargate-using-aws-copilot-cli-for-cross-account-deployment-73b1836f21f7) for more details.
+You can read the following sequence of articles for more details and context:
+
+1. [Multi-Account environment on AWS](https://aosolorzano.medium.com/implementing-a-multi-account-environment-with-aws-organizations-and-the-iam-identity-center-d1cdb40bdf4d).
+2. [OAuth2 in Spring Boot Native microservice](https://aosolorzano.medium.com/oauth2-in-spring-boot-native-reactive-microservice-with-amazon-cognito-as-oidc-service-c454d84a5234).
+3. [Deploy Spring Boot Native microservice with Copilot CLI](https://aosolorzano.medium.com/spring-boot-native-microservice-on-ecs-fargate-using-aws-copilot-cli-for-cross-account-deployment-73b1836f21f7).
+4. [Secure HTTP communications using ACM over an ALB](https://aosolorzano.medium.com/securing-http-communication-over-an-alb-using-acm-and-copilot-cli-in-a-multi-account-environment-954de1b89e54).
 
 ## Description.
 This project uses the Spring Boot Framework to manage Quartz Jobs in a Spring Native microservice with the use of reactive programing using Spring WebFlux.
