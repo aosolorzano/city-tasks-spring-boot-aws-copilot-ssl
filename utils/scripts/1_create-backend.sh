@@ -114,9 +114,8 @@ echo "INITIALIZING ENVIRONMENT ON AWS..."
 copilot env init                          \
   --app city-tasks                        \
   --name "$AWS_WORKLOADS_ENV"             \
-  --import-cert-arns "$acm_arn"           \
   --profile "$AWS_WORKLOADS_PROFILE"      \
-  --default-config "$WORKING_DIR"/copilot/environments/"$AWS_WORKLOADS_ENV"/manifest.yml
+  --default-config
 echo ""
 echo "DONE!"
 
