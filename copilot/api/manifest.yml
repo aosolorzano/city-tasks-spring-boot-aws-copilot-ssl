@@ -8,7 +8,7 @@ type: Load Balanced Web Service
 
 # Docker Image Arguments.
 image:
-  build: Dockerfile
+  build: Dockerfile-native
   port: 8080
 
 # ECS Task Definition.
